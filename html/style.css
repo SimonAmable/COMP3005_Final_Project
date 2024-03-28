@@ -1,0 +1,55 @@
+.form-control {
+    border-width: 2px;
+    border-color: black;
+}
+
+body {
+    background: linear-gradient(to bottom left, #FBD925, #FB8412);
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    background-size: cover; 
+    position: relative;
+}
+
+h1 {
+    color: black;
+    font-family: verdana;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
+
+label.form-label {
+    color: black;
+    font-family: verdana;
+}
+
+input.form-control {
+    color: black;
+}
+
+select.form-select {
+    border-width: 2px;
+    border-color: black;
+}
+
+.login-box {
+    width: 600px;
+    height: 700px;
+    background-color: white; 
+    border-radius: 50px;
+}
+
+.btn-primary {
+    border-radius: 30px; 
+    background: linear-gradient(to right, #FBD925, #F89331);
+}
+
+
+
+
+
+
+
+

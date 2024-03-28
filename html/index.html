@@ -1,0 +1,40 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body
+  style="background: linear-gradient(to bottom right, #FBD925, #FB8412); margin: 0; padding: 0; height: 100vh; background-size: cover; position: relative;">
+
+  <div class="container mt-5 login-box">
+    <div class="row justify-content-center">
+      <div class="col-md-6" style="background-color: white; padding: 20px; border-radius: 10px;">
+        <h1>Login</h1>
+        <br>
+
+        <form method="post">
+          <!-- Email input -->
+          <label style="color: black; margin-top: 10px;" class="form-label" for="email">Email</label>
+
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="email" id="email" name="email" class="form-control" />
+            <label style="margin-top: 5px;" class="form-label" for="email">Enter your email address</label>
+            <hr>
+          </div>
+
+          <!-- Password input -->
+          <label style="color: black; margin-top: 10px;" class="form-label" for="password">Password</label>
+
+          <div data-mdb-input-init class="form-outline mb-4">
+            <input type="password" id="password" name="password" class="form-control" />
+            <label style="margin-top: 5px;" class="form-label" for="password">Enter your password</label>
+            <hr>
+          </div>
+
+          <br>
+
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
