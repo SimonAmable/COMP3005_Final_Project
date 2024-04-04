@@ -1,9 +1,11 @@
 CREATE TABLE IF NOT EXISTS Members(
-member_id SERIAL PRIMARY KEY,
-first_name VARCHAR(255) NOT NULL,
-last_name VARCHAR(255) NOT NULL,
-username VARCHAR(255) NOT NULL,
-phone_number VARCHAR(255) NOT NULL
+    member_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE, -- Add email field
+    password VARCHAR(255) NOT NULL, -- Add password field
+    username VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS exersize_routines(
